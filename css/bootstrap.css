@@ -54,7 +54,7 @@ CUSTOM CUSTOM CUSTOM
 */
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .navbar-toggler, .dropdown-toggle {
     background-color: #ffc0ad !important;
-    color: #271c19 !important;
+    color: #55423d !important;
     outline: #ffc0ad !important;
     border: #ffc0ad !important;
     font-family: 'Varela', sans-serif;
@@ -65,7 +65,7 @@ CUSTOM CUSTOM CUSTOM
   background-color: #f0ead6 !important;
 }
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text {
-  color: #000000 !important;
+  color: #55423d !important;
   font-size: 40px;
   font-family: 'Varela', sans-serif;
 }
@@ -83,6 +83,7 @@ CUSTOM CUSTOM CUSTOM
 .dropdown-item {
   font-family: 'Varela', sans-serif;
   hover: #fffffe !important;
+  color: #55423d !important;
 }
 .dropdown-item:hover {
   background-color: #F9E4B7 !important;
