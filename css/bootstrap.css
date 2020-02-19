@@ -95,9 +95,10 @@ CUSTOM CUSTOM CUSTOM
   background: #F9E4B7 !important;
   color: #55423d !important;
 }
-.h1 {
+.h1, .h3 {
   text-align: center !important;
 }
+
 
 /*
 END CUSTOM End CUSTOM END CUSTOM
