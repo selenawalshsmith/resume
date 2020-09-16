@@ -97,17 +97,26 @@ hr {
   font-size:32px;
   margin-bottom: 15px;
 }
-i {
-  padding: 25px;
-}
 .icon-group {
   padding: 10px;
   text-align: center;
+  margin-right: 5px;
 }
 .heading-icon-group {
   text-align: center;
   align-items: center;
   color:#55423d;
+  text-decoration: none;
+}
+
+.heading-icon {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.heading-icon:hover {
+
 }
 .menu-item {
   display: block;
@@ -164,11 +173,14 @@ i {
   border-style: solid;
   border-color: #55423d;
 }
-
 .project-image {
   border-radius: 5%;
   margin: auto;
-  padding: 10px;
+  margin-left: 8px;
+  /*padding: 10px;*/
+  border: 4px;
+  border-style: solid;
+  border-color: #55423d;
 }
 .project-text {
   margin: 10px;
@@ -192,10 +204,12 @@ i {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
   padding: 5px;
+  transition-duration: 0.4s;
 }
 
 .btn:hover{
   cursor: pointer;
+  background-color: #F9E4B7;
 }
 
 .project-paragraph {
@@ -207,4 +221,22 @@ i {
 }
 .text-section {
   text-align: justify !important;
+}
+
+.heading-button {
+  display: inline;
+  margin: 3px !important;
+  width: 3px !important;
+  background-color: #F9E4B7;
+  text-decoration: none;
+  align-items: center;
+  transition-duration: 0.4s;
+  padding: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  box-shadow: 1px 3px;
+}
+.heading-button:hover{
+  cursor: pointer;
+  background-color: #ffc0ad;
 }
